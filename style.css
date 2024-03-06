@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0.00) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0px auto;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 85px;
+}
+
+h1 {
+  font-family: "Mulish", sans-serif;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 56px;
+  margin-bottom: 40px;
+  color: #1F1534;
+}
+
+h1 span {
+  font-weight: bold;
+  color: #89C5CC;
+}
+
+ul {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  opacity: 50%;
+  color: #1F1534;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 100%;
+  color: #1F1534;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 28px;
+  margin-bottom: 40px;
+  color: #7D7987;
+
+}
+
+#botao-comece-ja {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 15px 32px;
+  gap: 10px;
+  border: 0px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #69B99D;
+  
+}
+
+#botao-comece-ja:hover {
+  background-color: #41A280;
+  cursor: pointer;
+}
+
+footer {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 28px;
+  color: #1F1534;
+}
+
+footer a {
+  text-decoration: none;
+
+}
+footer a:hover {
+  color: #41A280;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
